@@ -1,0 +1,27 @@
+{
+    "name": "sore",
+    "version": "0.0.1",
+    "description": "Shell core functions",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "author": {
+        "name": "YounGoat",
+        "email": "youngoat@163.com",
+        "url": "https://youngoat.github.io/"
+    },
+    "license": "ISC",
+    "bin": {},
+    "dependencies": {},
+    "devDependencies": {},
+    "directories": {},
+    "keywords": [
+        "shell"
+    ],
+    "homepage": "https://github.com/YounGoat/sore",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YounGoat/sore.git"
+    }
+}
