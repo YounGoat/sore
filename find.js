@@ -15,7 +15,7 @@ const MODULE_REQUIRE = 1
 	
 	/* NPM */
 	, noda = require('noda')
-	, options2 = require('options2')
+	, obtions = require('obtions')
 	, undertake = require('undertake')
 	
 	/* in-package */
@@ -140,7 +140,7 @@ function find(options, callback) {
 		'no-type',
 	];
 
-	options = options2(options, {
+	options = obtions(options, {
 		caseSensitive : false,
 		keepNameCase  : false,
 		explicit      : true,
