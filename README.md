@@ -41,7 +41,7 @@ find({
 ##	API
 
 Most of sub modules are designed to be asynchronous and conform to [PoC][2] pattern. Here are available sub modules：
-*	[find](docs/sort.md)
+*	[find](docs/find.md)
 
 ##	References
 

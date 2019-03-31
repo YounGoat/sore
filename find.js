@@ -237,6 +237,8 @@ function find(options, callback) {
 		} while(dirs.length > 0);
 
 		if (options.streamable) {
+			// readable.push(null) 等效于 readable.emit('end')
+			nameStream.push(null);
 			nameStream.emit('close');
 			return nameCount;
 		}
