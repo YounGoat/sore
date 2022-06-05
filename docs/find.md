@@ -30,7 +30,11 @@ Parameters may include:
 	
 *	__options.type__ *string* DEFAULT `'*'`  
 	Indicate type of items to be found.  
-	This option should be a string in which each character represent a 
+	This option should be a string in which each character represent a kind of files.   
+	Available type characters include:  
+	* *d* = Directory
+	* *f* = File
+	* *l* = SymbolicLink
 
 *	__options.iname__ *string* OPTIONAL  
 	Case-insensitive file name pattern.
