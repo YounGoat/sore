@@ -1,6 +1,6 @@
 {
     "name": "sore",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "Shell core functions",
     "main": "index.js",
     "scripts": {
@@ -15,7 +15,7 @@
     "bin": {},
     "dependencies": {
         "noda": "^0.5.0",
-        "obtions": "^0.0.1",
+        "obtions": "^0.1.0",
         "undertake": "^0.0.4"
     },
     "devDependencies": {},
